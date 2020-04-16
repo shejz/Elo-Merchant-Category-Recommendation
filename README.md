@@ -14,8 +14,7 @@ How can machine learning be used to best predict customer loyalty using Elo's da
 ## **Metric**
 The overall performance metric is the root-mean-squared error (RMSE). Lower RMSE is more desirable.
 
-Motivation: 
-Provide credit card users with personalized recommendations about local merchants (restaurant, shops, etc.), then give discount promotions for the recommended mechants.
+
 
 
 
