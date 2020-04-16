@@ -11,6 +11,17 @@ How can machine learning be used to best predict customer loyalty using Elo's da
 **Dataset Description**:
 - The datasets are largely anonymized, and the meaning of the features are not elaborated. External data are allowed
 
+**File descriptions**
+- train.csv - the training set
+- test.csv - the test set
+- historical_transactions.csv - up to 3 months' worth of historical transactions for each card_id
+- merchants.csv - additional information about all merchants / merchant_ids in the dataset.
+- new_merchant_transactions.csv - two months' worth of data for each card_id containing ALL purchases that card_id made at merchant_ids that were not visited in the historical data.
+- sample_submission.csv - a sample submission file in the correct format - contains all card_ids you are expected to predict for.
+
+**Data fields**
+Data field descriptions are provided in Data Dictionary.xlsx.
+
 ## **Metric**
 The overall performance metric is the root-mean-squared error (RMSE). Lower RMSE is more desirable.
 
