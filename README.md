@@ -26,7 +26,15 @@ Data field descriptions are provided in Data Dictionary.xlsx.
 The overall performance metric is the root-mean-squared error (RMSE). Lower RMSE is more desirable.
 
 
+## **Submissions & Leaderboard Scores**
 
+|Models            |Public score|Private score|Final rank| 
+|------------------|------------|-------------|----------|
+|LightGBM          |3.69199     |3.61748      |          |
+|LGBM CV Bagging   |3.69148     |3.61647      |          |
+|Without outliers  |3.69254     |3.61947      |          |
+|Blending I        |3.68771     |3.61385      |Top 12% 480/4127|
+|Blending II       |3.68747     |3.61337      | Bronze medal          |
 
 
 
